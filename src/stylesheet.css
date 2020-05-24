@@ -1,0 +1,65 @@
+body {
+  position: relative;
+  font-family: "Cormorant Garamond", serif;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 22px;
+}
+
+hr {
+  margin-top: 100px;
+}
+
+footer > p {
+  text-align: center;
+  font-size: 16px;
+  margin: 40px 0px;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-item > a:hover {
+  color: lightgrey;
+}
+
+.section {
+  min-height: 300px;
+  text-align: center;
+}
+
+.section-intro {
+  background-image: url("../media/intro-bg.jpg"),
+    radial-gradient(#eaf1f1, #91bdbd);
+  background-blend-mode: screen;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  padding: 10%;
+  color: #2f4f4f;
+}
+
+.section-info {
+  padding: 10%;
+}
+
+.section-join {
+  background-color: #2f4f4f;
+  color: #ffffff;
+  padding: 10%;
+}
+
+.section-title {
+  font-family: "Mukta", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}

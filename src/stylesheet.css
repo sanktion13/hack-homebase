@@ -61,3 +61,11 @@ footer > p {
   font-weight: bolder;
   margin-bottom: 50px;
 }
+
+.illustration {
+  width: 500px;
+}
+
+.avatar {
+  width: 200px;
+}

@@ -39,11 +39,9 @@ footer > p {
 }
 
 .section-intro {
-  background-image: url("../media/intro-bg.jpg"),
-    radial-gradient(#eaf1f1, #91bdbd);
-  background-blend-mode: screen;
+  background-image: url("../media/intro-bg.jpg");
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   padding: 10%;
   color: #2f4f4f;
 }

@@ -43,7 +43,7 @@ footer > p {
   background-size: cover;
   background-attachment: fixed;
   padding: 10%;
-  color: #2f4f4f;
+  color: #7d287f;
 }
 
 .section-info {
@@ -51,7 +51,7 @@ footer > p {
 }
 
 .section-join {
-  background-color: #2f4f4f;
+  background-color: #7d287f;
   color: #ffffff;
   padding: 10%;
 }
@@ -64,4 +64,8 @@ footer > p {
 
 .illustration {
   width: 500px;
+}
+
+.logo {
+  width: 300px;
 }

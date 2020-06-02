@@ -1,18 +1,24 @@
-body {
-  position: relative;
-  font-family: "Cormorant Garamond", serif;
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../font/sofia-reg.woff") format("woff"),
+    url("../font/sofia-reg.woff2") format("woff2");
 }
 
-h1 {
-  font-size: 5vw;
+body {
+  position: relative;
+  font-family: "Sofia Pro", serif;
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 hr {
@@ -21,12 +27,13 @@ hr {
 
 footer > p {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   margin: 40px 0px;
 }
 
 .nav-link {
   color: #ffffff;
+  font-size: 18px;
 }
 
 .nav-item > a:hover {
@@ -57,15 +64,15 @@ footer > p {
 }
 
 .section-title {
-  font-family: "Mukta", sans-serif;
   font-weight: bolder;
   margin-bottom: 50px;
 }
 
 .illustration {
-  width: 500px;
+  width: 450px;
 }
 
 .logo {
   width: 300px;
+  margin-left: 15px;
 }

@@ -1,7 +1,13 @@
 @font-face {
   font-family: "Sofia Pro";
-  src: url("../font/sofia-reg.woff") format("woff"),
-    url("../font/sofia-reg.woff2") format("woff2");
+  src: url("../font/sofia_light.woff") format("woff"), url("../font/sofia_light.woff2") format("woff2");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../font/sofia-reg.woff") format("woff"), url("../font/sofia-reg.woff2") format("woff2");
+  font-weight: normal;
 }
 
 body {
@@ -11,14 +17,17 @@ body {
 
 h2 {
   font-size: 30px;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 24px;
+  font-weight: normal;
 }
 
 p {
   font-size: 20px;
+  font-weight: lighter;
 }
 
 hr {

@@ -1,18 +1,22 @@
 @font-face {
   font-family: "Sofia Pro";
-  src: url("../font/sofia_light.woff") format("woff"), url("../font/sofia_light.woff2") format("woff2");
+  src: url("../font/sofia_light.woff") format("woff"),
+    url("../font/sofia_light.woff2") format("woff2");
   font-weight: lighter;
 }
 
 @font-face {
   font-family: "Sofia Pro";
-  src: url("../font/sofia-reg.woff") format("woff"), url("../font/sofia-reg.woff2") format("woff2");
+  src: url("../font/sofia-reg.woff") format("woff"),
+    url("../font/sofia-reg.woff2") format("woff2");
   font-weight: normal;
 }
 
 body {
   position: relative;
   font-family: "Sofia Pro", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
